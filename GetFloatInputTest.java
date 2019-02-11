@@ -51,7 +51,7 @@ public class GetFloatInputTest {
         this.console = getConsoleWithBufferedInput(input);
 
         // When
-        Float actual = console.getFloatInput("");
+        Float actual = console.getFloatInput("",input);
 
         // Then
         Assert.assertEquals(actual, expectedInput);
